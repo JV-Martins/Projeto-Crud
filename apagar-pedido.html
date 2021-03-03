@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.3/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.3/components.min.css"
+        integrity="sha512-f6TS5CFJrH/EWmarcBwG54/kW9wwejYMcw+I7fRnGf33Vv4yCvy4BecCKTti3l8e8HnUiIbxx3V3CuUYGqR1uQ=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.3/utilities.min.css"
+        integrity="sha512-DjlU1UdCP+4lA/lTtRoMMyTlUBGgQueyJgEXSp08GgiW3BT5QWZNRSFhKcvCutJ66oF1YVAXbW8sDSnqeVSOeA=="
+        crossorigin="anonymous" />
+    <title>Pedi Fácin</title>
+</head>
+
+<body>
+    <div class="bg-blue-400 w-full">
+        <div class="p-2 flex">
+            <div name="pediFacin" class="text-white w-1/2 px-1 text-xl m-2 flex-auto font-semibold">
+                Pedi Fácin
+            </div>
+            <div name="Adicionar" class="text-white text-xl m-2  font-semibold">
+                <a href="./adicionar.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class=" flex flex-row text-l ">
+            <div
+                class="md:text-white p-2 flex-grow font-semibold border-b md:border-transparent hover:text-gray-600  hover:border-gray-600  text-white">
+                <p class="text-center">Pedidos</p>
+            </div>
+        </div>
+        
+        <div class="f-full h-screen bg-white">
+
+            <div class="font-normal text-center pt-5 text-2xl">
+                Apagar pedido
+            </div>
+
+            <div class="bg-white shadow overflow-hidden sm:rounded-lg">
+                <div class="px-4 py-5 sm:px-6">
+                    <h3 class="text-lg leading-6 font-medium text-gray-900 border-t border-gray-200 pt-5">
+                        Detalhes do pedido
+                    </h3>
+                    <p class="mt-1 max-w-2xl text-sm text-gray-500">
+                        Pedido nº 123456
+                    </p>
+                </div>
+                <div class="border-t border-gray-200">
+                    <dl>
+                        <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dd class="mt-1 mb-5 text-sm font-medium text-gray-500 sm:mt-0 sm:col-span-2">
+                                Mesa:
+                                <span class="bg-green-600 text-white text-xs font-semibold py-1 px-2 rounded-full mr-2">
+                                    12
+                                </span>
+                            </dd>
+                            <dd class="mt-1 mb-5 text-sm font-medium text-gray-500 sm:mt-0 sm:col-span-2">
+                                Pedido:
+                                <span class="text-sm text-gray-900"> Porção de batatas </span>
+                            </dd>
+                            <dd class="mt-1 mb-5 text-sm font-medium text-gray-500 sm:mt-0 sm:col-span-2">
+                                Adicionais:
+                                <span>
+                                    <span class="bg-blue-600 text-white text-xs font-semibold py-1 px-2 rounded-full mr-2">
+                                        Adicional 1
+                                    </span>
+                                    <span class="bg-blue-600 text-white text-xs font-semibold py-1 px-2 rounded-full mr-2">
+                                        Adicional 2
+                                    </span>
+                                    <span class="bg-blue-600 text-white text-xs font-semibold py-1 px-2 rounded-full mr-2">
+                                        Adicional 3
+                                    </span>
+                                </span>
+                            </dd>
+                            <dt class="text-sm font-medium text-gray-500">
+                                Observações
+                            </dt>
+                            <dd class="my-3 text-sm text-justify text-gray-900 sm:mt-0 sm:col-span-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, doloremque? Ad aut nam quas ipsam eaque! Eos illum cumque fuga maiores porro, necessitatibus ut, officiis dolorum, voluptatum sunt perferendis libero.
+                            </dd>
+                        </div>
+
+                        <div class="bg-transparent w-full text-center">
+                            <button class="bg-red-600 text-white font-bold py-2 px-4 border-b-4 hover:border-b-2 hover:border-t-2 border-red-dark-300 hover:border-red-300 rounded md:box-content w-5/6">
+                                Apagar pedido
+                            </button>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
